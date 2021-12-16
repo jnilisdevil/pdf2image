@@ -46,7 +46,6 @@ def pdf2jpg(pdf_path):
         os.makedirs(pdf_name)
 
     # 将jpg存入文件夹
-
     for pg in range(pdf.pageCount):
         page = pdf[pg]
         rotate = int(0)
